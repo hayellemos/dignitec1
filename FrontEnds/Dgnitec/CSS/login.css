@@ -1,0 +1,142 @@
+.section {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 15px;
+}
+
+header {
+    margin-top: 20px;
+    left: 5%;
+    position: relative;
+   
+} 
+
+header img {
+    margin-top: 1px;
+    width: 120px;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-60%);
+}
+
+header h1 {
+    position: absolute;
+    top: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    left: 50px;
+}
+
+input {
+    display: flex;
+    padding: 4px;
+    margin: 30px;
+}
+
+.cabecalho{
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    background: linear-gradient(90deg, #02ffc8, #ff7b00, yellow);
+    -webkit-text-fill-color: transparent;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    padding: 30px;
+    align-items: center;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.inputss{
+    width: 260px;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 2px #ff7b00 ;
+}
+
+.labels{
+    color: black;
+    position: absolute;
+    left: 60px;
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.section{
+    width: 370px;
+    height: 400px;
+    border-radius: 50px;
+    border: 1px solid #ebe9e8;
+    box-shadow: 1px 3px 2px;
+    color: #070707;
+
+}
+
+p {
+    display: flex;
+    padding-left: 35px;
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.botoes{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.botao{
+    font-size: 23px;
+    padding: 6px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: italic;
+}
+
+.botao1{
+    background-color: white;
+    border: 1px solid black;    
+}
+
+.botao2{
+    background: linear-gradient(90deg, #ff7b00, #fab115);
+    border: none;    
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+#convidado{
+    font-size: 16px;
+}

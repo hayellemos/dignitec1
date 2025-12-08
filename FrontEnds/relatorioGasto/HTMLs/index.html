@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/FrontEnds/relatorioGasto/stylos/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@1,395&display=swap" rel="stylesheet">
+<link rel="icon" href="/FrontEnds/relatorioGasto/IMAGES/logoDignitec.png">
+  <title>Relatório de Gastos</title>
+</head>
+<body>
+  <div id="container">
+    <div class="imagem">
+      <img src="/FrontEnds/relatorioGasto/IMAGES/logoDignitec.png" alt="">
+    </div>
+
+    <h1 id="relatorios">Relatório de Gastos</h1>
+    <br>
+
+    <form id="form">
+      <div class="inputs">
+        <label for="categoria" class="labelss">Categoria do Gasto:</label><br>
+        <input id="categoria" type="text" name="Categoria" placeholder="Ex: Alimentação"><br><br>
+
+        <label for="valor" class="labelss">Valor do Gasto:</label><br>
+        <input id="valor" type="text" name="Valor" placeholder="R$ 0,00"><br><br>
+
+        <label for="data" class="labelss">Data:</label><br>
+        <input id="data" type="text" name="Data" placeholder="__/__/__"><br><br>
+
+        <!-- IMPORTANTE: type="button" impede o form de recarregar a página -->
+        <button id="registrar" type="button" onclick="enviar()">Registrar</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

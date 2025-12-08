@@ -1,0 +1,207 @@
+/* Remove espaçamentos padrões */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Container principal — divide em 2 partes */
+#container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Metade esquerda — imagem */
+.imagem {
+  flex: 1; /* ocupa metade */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f18407; /* cor de fundo opcional */
+}
+
+.imagem img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Metade direita — formulário */
+form {
+  flex: 1; /* ocupa metade */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.inputs {
+  width: 70%;
+  max-width: 400px;
+}
+
+
+label  {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff7b00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff7b00;
+}
+
+
+/* ============================= */
+/*       RESPONSIVIDADE         */
+/* ============================= */
+
+/* 🔥 Telas menores que 900px (tablets) */
+@media (max-width: 900px) {
+
+  #container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .imagem {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin: 0 auto; /* centraliza */
+  }
+
+  .inputs {
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .imagem img {
+    max-width: 300px;
+  }
+}
+
+
+/* 🔥 Telas menores que 600px (celulares) */
+@media (max-width: 600px) {
+  #container {
+    flex-direction: column;
+
+  }
+
+  .imagem {
+    order: -1; /* imagem vai para cima */
+    background-color: #fff;
+  }
+
+  .inputs {
+    width: 90%;
+  }
+
+  .imagem img {
+    width: 70%;
+    height: 50%;
+    float: left;
+    max-width: 150px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 12px;
+  }
+}
+
+/* 🔥 Telas menores que 400px (celulares pequenos) */
+@media (max-width: 400px) {
+  .inputs {
+    width: 75%;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  input, button {
+    font-size: 18px;
+    height: 25px;
+  }
+
+  .imagem img {
+    width: 200%;
+  }
+
+  #relatorios{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 395;
+    font-style: italic;
+    font-size: 40px;
+  }
+
+  #registrar{
+    width: 85%;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 395;
+    font-style: italic;
+  }
+
+  .labelss{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600s;
+    font-style: italic;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+  }
+}
+
+
+
+
+
+

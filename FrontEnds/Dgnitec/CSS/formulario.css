@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ff7b00;
+}
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #c9670c;
+}
+
+
+h1 {
+  font-style: italic;
+  font-size: 22px;
+  margin: 0;
+  color: #ff7b00;
+}
+
+.home-icon {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Source Sans 3", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 395;
+        font-style: italic;
+}
+
+form input[type="text"],
+form input[type="file"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  height: 60px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #ff7b00;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 50px;
+  font-family: "Source Sans 3", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+}
+
+button:hover {
+  background: #005fa3;
+}

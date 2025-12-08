@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/ESTILOS/preco.css">
+    <title>Precificação inteligente.com</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <h1 class="titulo">DignEconomy</h1>
+        <p class="sub-titulo">Precificação inteligente para o seu negócio</p>
+    </div>
+    <div class="corpo">
+        <h2>Calcule o preço ideal dos seus produtos ou serviços</h2>
+        <p class="sub-titulo">Insira custos e obtenha automaticamente o preço de venda com margem de lucro otimizada</p>
+    </div>
+    <div class="tabela">
+        <h1>Dados do produto</h1>
+        <form>
+            <label for="nomeProduto">Nome de Produto</label>
+            <input type="text" id="nomeProduto" name="nomeProduto" placeholder="Ex: Camiseta personalizada" />
+            
+            <label for="gastosFixos">Gastos Fixos</label>
+            <input type="number" id="gastosFixos" name="gastosFixos" placeholder=" RS 0,00 " />
+            
+            <label for="gastosVariaveis">Gastos Variavéis</label>
+            <input type="number" id="gastosVariaveis" name="gastosVariaveis" placeholder="RS 0,00" />
+            
+            <label for="categoriaProduto">Categoria Produto</label> <br>
+            <select name="categoriaProduto" id="categoriaProduto">
+                <option value="Artesanato">Artesanato</option>
+            </select>
+
+            <button type="submit">Calcular preço automático</button>
+        </form>
+    </div>
+    <div class="resultPreco">
+        <h1>Resultado da Precificação</h1>
+        <div class="dicas">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis quibusdam ad non hic ut. Debitis quae voluptate, reiciendis repellat vitae eos eligendi, ipsum, neque molestias perferendis non eveniet. Aut, sequi!</p>
+        </div>
+    </div>
+    <div class="historico"></div>
+</body>
+</html>

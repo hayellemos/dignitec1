@@ -1,0 +1,52 @@
+/* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    height: 60px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.cabecalho h1,  p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.corpo { 
+    align-items: center;
+    bottom: 100px;
+    text-align: center;
+    
+}
+
+.tabela {
+    
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+form  {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+}
+
+.dicas {
+    position: absolute;
+    top: 75%;
+    width: 75%;
+    height: 20%;
+    border-radius: 10px;
+    margin-left: 13%;
+    text-align: center;
+    background-color: orange;
+}

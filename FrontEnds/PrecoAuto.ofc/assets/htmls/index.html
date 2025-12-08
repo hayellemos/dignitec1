@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precificação Inteligente</title>
+    <link rel="stylesheet" href="/FrontEnds/PrecoAuto.ofc/assets/stylos/style.css">
+</head>
+<body>
+    <div class="topo">
+        <img class="logo" src="../../../relatorioGasto/IMAGES/logoDignitec.png">
+    </div>
+    <br>
+
+    <h1>Precificação Inteligente</h1>
+
+
+    <div id="input-box">
+            <div class="input-field">
+                <label class="labelss" for="CustoFixo">Custos Fixos</label>
+                <br>
+                <input type="number" class="inputts" id="CustoFixo">
+                <br>
+
+
+                <label class="labelss" for="qtdServicoMes">Qtd. produto/serviço por mês: </label>
+                <br>
+                <input type="number" class="inputts" id="qtdServicoMes">
+
+                <br>
+    
+                <label class="labelss" for="CustoVariavel">Custos Variavel por produto/serviço</label>
+                <br>
+                <input type="number" class="inputts" id="CustoVariavel">
+                 <br>
+                <label class="labelss" for="margemLucro">Margem de lucro desejada (%) </label>
+                <br>
+                <input type="number" class="inputts" id="margemLucro" placeholder="Ex: 50 ">
+                </div>
+            </div>
+
+            <div class="result">
+                <h4>Resultado</h4>
+                <span id="PrecoInteligente">
+                    R$ 0,00
+                </span>
+            </div>
+                
+            <div class="botoes">
+                <button id="calculate" onclick="calcular()">Calcular</button>
+                <button id="registrar">Registrar</button>
+            </div>
+        
+            
+    <script type="text/javascript" src="/assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Gastos</title>
+</head>
+<body>
+
+    <section>
+        <h1>Categoria</h1>
+        <span id="categoria"></span>
+    </section>
+
+    <section>
+        <h1>Valor</h1>
+        <span id="valor"></span>
+    </section>
+
+    <section>
+        <h1>Data</h1>
+        <span id="data"></span>
+    </section>
+
+    <script>
+        // Recuperando os valores
+        const categoria = localStorage.getItem("categoriaGasto");
+        const valor = localStorage.getItem("valorGasto");
+        const data = localStorage.getItem("dataGasto");
+
+        // Inserindo no HTML
+        document.getElementById("categoria").innerText = categoria || "Não informado";
+        document.getElementById("valor").innerText = valor || "Não informado";
+        document.getElementById("data").innerText = data || "Não informado";
+    </script>
+
+</body>
+</html>
