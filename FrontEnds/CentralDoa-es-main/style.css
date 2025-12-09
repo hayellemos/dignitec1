@@ -1,0 +1,171 @@
+header {
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 395;
+    font-style: italic;
+    color: black;
+}
+
+
+.cabecalho h1 {
+    background-color: #ff7b00;
+    width: 340px;
+    color: #fff;
+    padding: 3px;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 30px;
+  margin-left: 10px;
+  
+}
+
+.d-color {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragrafo-header {
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    text-align: justify;
+    margin: 10px;
+}
+
+
+
+.anuncio {
+  margin-left: 10px;
+  width: 350px;
+  max-height: max-content;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 25px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0.3);
+}
+
+.img-anuncio {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.nomeProjeto {
+  margin-left: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.localizacao {
+    margin-left: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.descricao  {
+    color: black;
+    margin-left: 15px;
+    padding: 3px;
+    overflow-wrap: break-word;
+    font-size: 18px;    
+}
+
+.contatos {
+  background-color: green;
+}
+
+button {
+  margin-top: 15px;
+  width: 90%;
+  height: 55px;
+  padding: 10px;
+  background: #ff7b00;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+button:hover {
+  background: #005fa3;
+} 
+
+
+
+
+/*INDEX*/
+
+#logo{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#formulario{
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#central{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.labelss{
+  font-size: 18px;
+  text-align: left;
+}
+
+.inputss{
+  width: 280px;
+  height: 40px;
+  border: 1px solid #ff7b00;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+#textarea{
+  width: 280px;
+  resize: vertical;
+  border-radius: 20px;
+  border: 1px solid #ff7b00;
+}
+
+a{
+  text-decoration: none;
+}
+
+#Cadastrar{
+  font-size: 20px;
+  color: #ff7b00;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 500px;
+}
